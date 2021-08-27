@@ -6,7 +6,7 @@ export default function SinglePost() {
             <div className="singlePostWrapper">
                 <img src="https://wallpaperaccess.com/full/504543.jpg" alt="" className="singlePostImg" />
                 <h1 className="singlePostTitle">
-                    Lorem ipsum dolor sit amet
+                    Lorem ipsum dolor sit amet error
                     <div className="singlePostEdit">
                         <i className="singlePostIcon far fa-edit"></i>
                         <i className="singlePostIcon far fa-trash-alt"></i>
