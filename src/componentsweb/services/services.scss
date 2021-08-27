@@ -1,0 +1,59 @@
+@import "../../global.scss";
+
+.services{
+
+    background-image: url("../../assets/imgi/0-bg-waves.png");
+    min-width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+  
+    .home-waves{
+
+        .container{
+            scrollbar-width: none; //Firefox
+            &::-webkit-scrollbar{
+                display: none;
+            }
+            display: flex;
+            align-items: center;
+            padding-left: 5cm;
+            height: 750px;
+            width: 1500px;
+
+            @include mobile{
+                padding-top: 0cm;
+                padding-left: 0cm;
+                height: 1000px;
+                width: 356px;
+                margin-left: 15px;
+                margin-right: 15px;
+            }
+            
+        }
+
+        .container2{
+         
+            display: flex;
+            padding-left: 8.5cm;
+
+            @include mobile{
+                padding-left: 0cm;
+                width: 340px;
+                margin-left: 10px;
+            }
+        }
+
+        .titulocontainer{
+            display: flex;
+            padding-left: 8.5cm;
+
+            @include mobile{
+                padding-left: 0cm;
+            }
+        }
+    
+    }
+  
+}

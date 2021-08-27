@@ -1,0 +1,114 @@
+@import "./global.scss";
+
+.page{   
+    height: 100vh;
+    .sections{
+        width: 100%;
+        height: calc(100vh - 80px);
+        color: black;
+        position: relative;
+        top: 80px;
+        scroll-behavior: smooth;
+        //scroll-snap-type: y mandatory;
+        scrollbar-width: none; //Firefox
+        &::-webkit-scrollbar{
+            display: none;
+        }
+    }
+
+    .solutions{
+        scroll-behavior: smooth;
+        width: 100%;
+        height: calc(113vh - 80px);
+        scrollbar-width: none; //Firefox
+        &::-webkit-scrollbar{
+            display: none;
+        }
+
+        @include mobile{
+            scroll-behavior: smooth;
+            width: 100%;
+            height: calc(180vh - 80px);
+            scrollbar-width: none; //Firefox
+            &::-webkit-scrollbar{
+            display: none;
+            }
+        }
+    }
+
+    .contact{
+        scroll-behavior: smooth;
+        width: 100%;
+        height: calc(102vh - 80px);
+        scrollbar-width: none; //Firefox
+        &::-webkit-scrollbar{
+            display: none;
+        }
+        @include mobile{
+            scroll-behavior: smooth;
+            width: 100%;
+            height: calc(130vh - 80px);
+            scrollbar-width: none; //Firefox
+            &::-webkit-scrollbar{
+            display: none;
+            }
+        }
+    }
+    
+    .services{
+        scroll-behavior: smooth;
+        width: 100%;
+        height: calc(390vh - 80px);
+        scrollbar-width: none; //Firefox
+        &::-webkit-scrollbar{
+            display: none;
+        }
+        @include mobile{
+            scroll-behavior: smooth;
+            width: 100%;
+            height: calc(800vh - 80px);
+            scrollbar-width: none; //Firefox
+            &::-webkit-scrollbar{
+            display: none;
+            }
+        }
+    }
+
+    .insight{
+        scroll-behavior: smooth;
+        width: 100%;
+        height: calc(101vh - 80px);
+        scrollbar-width: none; //Firefox
+        &::-webkit-scrollbar{
+            display: none;
+        }
+        @include mobile{
+            scroll-behavior: smooth;
+            width: 100%;
+            height: calc(135vh - 80px);
+            scrollbar-width: none; //Firefox
+            &::-webkit-scrollbar{
+            display: none;
+            }
+        }
+    }
+
+    .clients{
+        scroll-behavior: smooth;
+        width: 100%;
+        height: calc(105vh - 80px);
+        scrollbar-width: none; //Firefox
+        &::-webkit-scrollbar{
+            display: none;
+        }
+        @include mobile{
+            scroll-behavior: smooth;
+            width: 100%;
+            height: calc(206vh - 80px);
+            scrollbar-width: none; //Firefox
+            &::-webkit-scrollbar{
+            display: none;
+            }
+        }
+    }
+}

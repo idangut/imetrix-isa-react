@@ -1,0 +1,80 @@
+@import "../../global.scss";
+
+.clients{
+    background-color: rgb(225, 229, 238);
+   
+    
+
+    .container{
+        padding-top: 1cm;
+        padding-left: 9cm;
+
+        @include mobile{
+            padding-left: 0cm;
+        }
+        
+
+        .wrapper{
+            padding-top: 1cm;
+            padding-left: 1.5cm;
+            background-color: rgb(255, 255, 255);
+
+            @include mobile{
+                width: 300px;
+                padding-left: 0.8cm;
+            }
+
+            .texto{
+                padding-left: 3.1cm;
+                font-weight: 700;
+                font-size: 25px;
+
+                @include mobile{
+                    padding-left: 0.9cm;
+                    font-size: 20px;
+                }
+            }
+
+            .imagen{
+                height: 70px;
+                
+            }
+          
+        }
+
+        .tarjeta{
+            width: 590px;
+            height: 220px;
+            background-color: white;
+            border-style: solid;
+
+            @include mobile{
+                margin-left: 14px;
+                width: 330px;
+                height: 320px;
+            }
+        }
+
+    }
+
+    .imagecontainer{
+        padding-top: 0.5cm;
+        padding-left: 11.6cm;
+
+        @include mobile{
+            padding-left: 1.2cm;
+            height: 100px;
+        }
+    }
+
+
+    .bottomcontainer{
+        padding-left: 3cm;
+        max-width: 87%;
+
+        @include mobile{
+            padding-left: 1cm;
+        }
+    }
+
+}

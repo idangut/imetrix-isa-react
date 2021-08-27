@@ -1,0 +1,90 @@
+@import "../../global.scss";
+
+.contact{
+    background-color:rgb(255, 255, 255);
+    padding-left: 1cm;
+
+
+
+    @include mobile{
+        padding-top: 0.1cm;
+        padding-left: 25px;
+          
+    }
+    
+    .image{
+        display: flex;
+        padding-left: 10cm;
+        height: 90px;
+        margin-top: 90px;
+
+        @include mobile{
+            margin-top: 20px;
+            padding-left: 0px;
+            height: 80px;
+        }
+    }
+    .text{
+        display: flex;
+        align-items: center;
+        padding-left: 10.5cm;
+        height: 60px;
+        color:orange;
+
+        @include mobile{
+            padding-left: 0cm;
+            font-size: 20px;
+            text-align: left;
+            font-weight: bold;
+            width: 230px;
+        }
+    }
+    .formulario{
+        display: flex;
+        align-items: center;
+        padding-left: 10.5cm;
+        width: 1060px;
+
+        @include mobile{
+            padding-top: 10px;
+            padding-left: 0px;
+            width: 240px;
+            height: 320px;
+        }
+    }
+    .boton{
+        padding-top: 10px;
+        display: flex;
+        align-items: center;
+        padding-left: 17cm;
+
+        @include mobile{
+            padding-left: 2cm;
+            margin-bottom: 20px;
+            height: 60px;
+            width: 200px;
+        }
+    }
+    .form-check{
+        padding-top: 1cm;
+        padding-left: 11.1cm;
+
+        @include mobile{
+            padding-top: 0.5cm;
+            padding-left: 0px;
+            padding-right: 25px;
+            height: 150px;
+            width: 290px;
+        }
+
+        .form-check-input{
+            @include mobile{
+                margin-left: 5px;
+                margin-top: 5px;
+                
+            }
+
+        }
+
+    }
+}
