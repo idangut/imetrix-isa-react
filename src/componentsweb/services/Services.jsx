@@ -113,7 +113,7 @@ export default function Services() {
                             </div>
                             <div className="feature-card row flex">
                             <div className="card-content text-center col-16 col-sm-16 col-md-4 col-lg-8 row">
-                                <div className="col-12 col-sm-6 col-md-6 col-lg-4">
+                                <div className="col-16 col-sm-6 col-md-6 col-lg-4">
                                     <img src={iconAnalytics5} alt=""/>
                                     <h4 style={{"font-size":"15px","color":"orange","paddingTop":"0.5cm","height":"40px"}}>Identificación</h4>
                                     <p className="card-text">del Gestor o Analista</p>

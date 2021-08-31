@@ -26,9 +26,9 @@ export default function Intro() {
                             <h2 style={{"textAlign":"left","height":"150px","paddingTop":"8px"}} className="h2">Somos una compañía de analítica y estrategia de datos; usamos la inteligencia artificial y big data para crear soluciones de valor para la empresas.</h2>
                         </div>
                         <div className="botones">
-                            <Button className="boton1" style={{"height":"45px","width":"170px","fontWeight":"bold","fontSize":"20px"}} variant="secondary">EMPEZAR</Button>
+                            <Button className="boton1" style={{"height":"45px","width":"170px","fontWeight":"bold","fontSize":"20px","borderRadius":"30px"}} variant="secondary">EMPEZAR</Button>
                             <a href="#contactid">
-                                <Button className="boton2" style={{"marginLeft":"5px","height":"45px","width":"220px","fontWeight":"bold","fontSize":"20px"}} variant="light">CONOCER MÁS</Button>
+                                <Button className="boton2" style={{"marginLeft":"5px","height":"45px","width":"220px","fontWeight":"bold","fontSize":"20px","borderRadius":"30px"}} variant="light">CONOCER MÁS</Button>
                             </a> 
                         </div>            
                     </div>

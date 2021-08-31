@@ -1,4 +1,5 @@
 import "./topbar.scss";
+import {Link} from "react-router-dom";
 
 export default function Topbar() {
     return (
@@ -18,8 +19,12 @@ export default function Topbar() {
             </ul>
             </div>
             <div className="topRight">
+                <Link className="rightList" to="/">
+                    <li className="rightListItem">iMETRIX</li>
+                </Link>
                 <img className="topImg" src="https://cdn.pixabay.com/photo/2019/08/11/18/59/icon-4399701_640.png" alt="" />
                 <i className="topSearchIcon fas fa-search"></i>
+              
             </div>
         </div>
     )

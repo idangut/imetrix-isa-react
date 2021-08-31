@@ -58,11 +58,13 @@
 
             .botones{
              margin-right: 56px;
+             
                 @include mobile{
                     margin-right: 50px;
                 }
 
                 .boton1{
+                    background-color: rgb(90, 90, 90);
                     @include mobile{
                         margin-right: 110px;
                     }

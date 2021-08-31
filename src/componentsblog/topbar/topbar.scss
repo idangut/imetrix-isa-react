@@ -24,6 +24,7 @@
     margin-right: 10px;
     color: black;
     cursor: pointer;
+    padding-bottom: 10px;
 }
 
 .topImg{
@@ -31,6 +32,7 @@
     height: 40px;
     border-radius: 50%;
     object-fit: cover;
+    margin-bottom: 10px;
 }
 
 .topList{
@@ -39,6 +41,18 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    padding-bottom: 10px;
+}
+
+.rightList{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-bottom: 10px;
+    text-decoration: none;
+    list-style: none;
 }
 
 .topListItem{
@@ -46,6 +60,18 @@
     font-size: 18px;
     font-weight: 700;
     cursor: pointer;
+    padding-bottom: 4px;
+}
+
+.rightListItem{
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    color: orange;
+    padding-bottom: 4px;
+    text-decoration: none;
+    list-style: none;
 }
 
 .topSearchIcon{
@@ -53,5 +79,6 @@
     color: black;
     cursor: pointer;
     margin-left: 15px;
+    padding-bottom: 10px;
 }
 

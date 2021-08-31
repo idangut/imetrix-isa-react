@@ -53,7 +53,7 @@ class Contact extends React.Component {
                                     </div>
                             </div>
                             <div className="boton">
-                                <button style={{"color":"white"}} type="button" className="btn btn-warning">Enviar</button>
+                                <button style={{"color":"white","borderRadius":"30px","backgroundColor":"orange","height":"45px","width":"140px","fontSize":"20px","fontWeight":"bold"}} type="button" className="btn btn-warning">ENVIAR</button>
                             </div> 
                                     <Modal show={this.state.show}>
                                         <Modal.Title style={{"paddingTop":"18px"}}>
