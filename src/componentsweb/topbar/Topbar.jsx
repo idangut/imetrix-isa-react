@@ -14,7 +14,7 @@ export default function Topbar() {
                 </div>
                 <div className="right">
                     <div className="itemContainer">
-                        <Link className="itemContainer" to="/blog">
+                        <Link className="itemContainer" to="/blog/home">
                             <li className="span">Blog</li>
                         </Link>
                     </div>

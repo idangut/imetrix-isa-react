@@ -1,8 +1,10 @@
 import "./write.scss";
+import Topbar from "../../topbar/Topbar";
 
 export default function Write() {
     return (
         <div className="write">
+            <Topbar/>
             <img className="writeImg" src="https://airwallpaper.com/wp-content/uploads/wall003/4k-Gaming-Wallpaper-Computer-scaled.jpg" alt="" />
             <form className="writeForm">
                 <div className="writeFormGroup">

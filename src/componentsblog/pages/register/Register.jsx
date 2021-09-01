@@ -1,8 +1,12 @@
 import "./register.scss";
+import Topbar from "../../topbar/Topbar";
+import { Link } from "react-router-dom";
+
 
 export default function Register() {
     return (
         <div className="register">
+            <Topbar/>
             <span className="registerTitle">REGISTER</span>
             <form className="registerForm">
                 <label>Username</label>
@@ -13,7 +17,9 @@ export default function Register() {
                 <input type="password" className="registerInput" placeholder="Enter your password ..." />
                 <button className="registerButton">REGISTER</button>
             </form>
-            <button className="registerLoginButton">LOGIN</button>
+            <button className="registerLoginButton">
+                <Link className="link" to="/blog/login">LOGIN</Link>
+            </button>
         </div>
     );
 }

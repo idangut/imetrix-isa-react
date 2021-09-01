@@ -1,10 +1,11 @@
 import "./settings.scss";
 import Sidebar from  "../../sidebar/Sidebar";
-
+import Topbar from "../../topbar/Topbar";
 
 export default function Settings() {
     return (
         <div className="settings">
+            <Topbar/>
             <div className="settingsWrapper">
                 <div className="settingsTitle">
                     <span className="settingsUpdateTitle">Update Your Account</span>
